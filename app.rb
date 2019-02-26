@@ -10,4 +10,7 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     erb :sqaure
   end
+  
+  get '/say/:number/:phrase' do 
+    
 end
