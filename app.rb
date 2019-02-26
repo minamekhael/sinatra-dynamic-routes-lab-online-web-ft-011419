@@ -26,6 +26,7 @@ class App < Sinatra::Base
     erb :saywords
   end
   
-  
+  get '/:operation/:number1/:number2' do
+    
 
 end
