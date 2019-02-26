@@ -12,5 +12,12 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do 
-    
+    @w1 = params[:word1]
+    @w2 = params[:word2]
+    @w3 = params[:word3]
+    @w4 = params[:word4]
+    @w5 = params[:word5]
+    erb :saywords
+  end
+
 end
